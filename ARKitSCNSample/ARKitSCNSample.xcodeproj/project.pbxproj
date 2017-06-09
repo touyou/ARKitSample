@@ -6,6 +6,15 @@
 	objectVersion = 48;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		4671DB7E1EEA447D00154D17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466FB3741EE770DB00E5CBA6 /* AppDelegate.swift */; };
+		4671DB821EEA447D00154D17 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466FB37C1EE770DB00E5CBA6 /* ViewController.swift */; };
+		4671DB831EEA44DD00154D17 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 466FB3751EE770DB00E5CBA6 /* art.scnassets */; };
+		4671DB841EEA44DD00154D17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 466FB3761EE770DB00E5CBA6 /* Assets.xcassets */; };
+		4671DB851EEA44DD00154D17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 466FB3771EE770DB00E5CBA6 /* LaunchScreen.storyboard */; };
+		4671DB861EEA44DD00154D17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 466FB3791EE770DB00E5CBA6 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		4631BC191EE701BD00731F93 /* ARKitSCNSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARKitSCNSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		466FB3741EE770DB00E5CBA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -116,6 +125,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4671DB831EEA44DD00154D17 /* art.scnassets in Resources */,
+				4671DB841EEA44DD00154D17 /* Assets.xcassets in Resources */,
+				4671DB851EEA44DD00154D17 /* LaunchScreen.storyboard in Resources */,
+				4671DB861EEA44DD00154D17 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,6 +139,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4671DB7E1EEA447D00154D17 /* AppDelegate.swift in Sources */,
+				4671DB821EEA447D00154D17 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
